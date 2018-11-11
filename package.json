@@ -1,0 +1,11 @@
+{
+  "name": "nit-demo-express",
+  "version": "1.0.0",
+  "description": "NIT demo server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NIT Admin",
+  "license": "ISC"
+}
