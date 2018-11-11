@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello page!</title>
+</head>
+<body>
+	<h1>Hello NIT!</h1>
+
+	<p><%= 'Hello World!'.split('').toString() %></p>
+
+	<% if (typeof testVar !== 'undefined'){ %>
+		<p>Test value should be <%= testVar %></p>
+	<% } %>
+
+	<% if (typeof name !== 'undefined' && name){ %>
+		<h2>Hello, <%= name %>!</h2>
+	<% } %>
+
+</body>
+</html>
